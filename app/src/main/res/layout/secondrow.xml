@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/arrow_left"
+        android:layout_marginBottom="22sp"
+        android:layout_marginStart="21sp"
+        android:layout_marginTop="20sp"
+        />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Let's start here"
+        android:textSize="34sp"
+        android:fontFamily="@font/poppins_medium"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_marginStart="16sp"
+        />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Fill in your details begin"
+        android:fontFamily="@font/poppins_medium"
+        android:textSize="17sp"
+        android:layout_marginStart="16sp"
+        android:layout_marginBottom="22sp" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="15dp"
+        android:layout_marginStart="14sp"
+        android:layout_marginEnd="18sp"
+        android:layout_marginBottom="22sp"
+        android:backgroundTint="#F0F0F0">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="8dp"
+            android:gravity="center"
+            android:orientation="vertical">
+            <TextView
+                android:fontFamily="@font/poppins_medium"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:layout_marginStart="3dp"
+                android:text="Fullname" />
+            <EditText
+                android:fontFamily="@font/poppins_medium"
+                android:layout_marginTop="-18dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Cristian"
+                android:backgroundTint="#00000000"/>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="15dp"
+        android:layout_marginStart="14sp"
+        android:layout_marginEnd="18sp"
+        android:layout_marginBottom="22sp"
+        android:backgroundTint="#F0F0F0">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="8dp"
+            android:gravity="center"
+            android:orientation="vertical">
+            <TextView
+                android:fontFamily="@font/poppins_medium"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:layout_marginStart="3dp"
+                android:text="E-mail" />
+            <EditText
+                android:fontFamily="@font/poppins_medium"
+                android:layout_marginTop="-18dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Cristiandeb13@gmail.com"
+                android:backgroundTint="#00000000"/>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="15dp"
+        android:layout_marginStart="14sp"
+        android:layout_marginEnd="18sp"
+        android:layout_marginBottom="22sp"
+        android:backgroundTint="#F0F0F0">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="8dp"
+            android:gravity="center"
+            android:orientation="vertical">
+            <TextView
+                android:fontFamily="@font/poppins_medium"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:layout_marginStart="3dp"
+                android:text="Password" />
+            <EditText
+                android:fontFamily="@font/poppins_medium"
+                android:layout_marginTop="-18dp"
+                android:id="@+id/editTextTextPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Password12345"
+                android:ems="10"
+                android:inputType="textPassword"
+                android:drawableEnd="@drawable/ic_hide"
+                android:paddingEnd="22sp"
+                android:backgroundTint="#00000000"/>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button4"
+        android:layout_width="match_parent"
+        android:layout_height="58sp"
+        android:text="Sign up"
+        android:textSize="17sp"
+        android:textColor="@color/white"
+        android:background="@drawable/signup_button"
+        android:textFontWeight="700"
+        android:fontFamily="@font/poppins_bold"
+        android:layout_marginLeft="16sp"
+        android:layout_marginRight="16sp"
+        android:layout_marginBottom="10sp"
+        android:textAllCaps="false"/>
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="or"
+        android:textSize="17sp"
+        android:fontFamily="@font/poppins_medium"
+        android:textColor="@color/black"
+        android:layout_marginBottom="10sp"
+        android:textAlignment="center"
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button6"
+        android:layout_width="match_parent"
+        android:layout_height="58sp"
+        android:text="Connect with Facebook"
+        android:textAlignment="textStart"
+        android:textSize="17sp"
+        android:textColor="@color/white"
+        android:fontFamily="@font/poppins_medium"
+        android:background="@drawable/facebook_button"
+        android:textFontWeight="500"
+        android:layout_marginLeft="16sp"
+        android:layout_marginRight="16sp"
+        android:layout_marginBottom="10sp"
+        android:textAllCaps="false"
+        android:drawableStart="@drawable/ic_group"
+        android:drawablePadding="50dp"
+        android:paddingStart="21dp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button7"
+        android:layout_width="match_parent"
+        android:layout_height="60sp"
+        android:text="Connect with Google"
+        android:textAlignment="textStart"
+        android:textSize="17sp"
+        android:textColor="@color/black"
+        android:fontFamily="@font/poppins_medium"
+        android:background="@drawable/google_button"
+        android:backgroundTint="@color/white"
+        android:textFontWeight="500"
+        android:drawableStart="@drawable/google_icon"
+        android:drawablePadding="50dp"
+        android:layout_marginBottom="22sp"
+        android:layout_marginLeft="16sp"
+        android:layout_marginRight="16sp"
+        android:paddingStart="21dp"
+        android:textAllCaps="false"/>
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:layout_gravity="center"
+        android:layout_marginHorizontal="23dp"
+        android:paddingHorizontal="46sp"
+        android:text="@string/termsofuse"
+        android:textAlignment="center" />
+
+</LinearLayout>
